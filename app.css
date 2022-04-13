@@ -26,7 +26,7 @@
 }
 
 .header-right a {
-    color: blue;
+    color: #4682b4;
 }
 
 .header a:hover {
@@ -73,6 +73,8 @@
     font-family: 'Mukta', sans-serif;
     margin-bottom: 0;
     color:#111d27;
+
+    animation: slideY 4s;
 }
 
 .container h2 {
@@ -387,3 +389,13 @@ body {
       footer .socials a {
         margin: 0 5px;
       }
+
+      @keyframes slideY {
+        from {
+            transform: translateY(90px)
+        }
+        to {
+            transform: translateY(0px)
+    
+        }
+    }
